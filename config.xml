@@ -3,7 +3,7 @@
     <name>cmbScannerTest</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.10.105:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -81,4 +81,9 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="1.1.19" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="2.0.5" />
+    <plugin name="cmb-sdk-cordova-plugin" spec="C:\Users\ameen\Downloads\cmbSDK_Cordova_v2.0.2.1207\cmb-cordova">
+        <variable name="MW_LICENSE_KEY" value="gTfjK3J+lVKKVNdt5YS/1NaFXE2QPXcHJ1Fmh4Whk9c=" />
+    </plugin>
+    <allow-navigation href="http://192.168.10.105:8100" />
+    <engine name="android" spec="7.0.0" />
 </widget>
