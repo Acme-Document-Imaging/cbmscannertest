@@ -1,0 +1,8 @@
+{
+  "name": "cmbScannerTest",
+  "app_id": "293ab462",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
